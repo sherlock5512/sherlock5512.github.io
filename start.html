@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Startpage</title>
+    <meta charset="utf-8" />
+    <script src="JS/GetBrowser.js"></script>    
+    <script src="JS/DisplayLogo.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/start.css">
+</head>
+
+<body>
+    <img src="" id="browserLogo">
+    <div id="gSearch" style="display:block;">
+        <form id="textField" class="google" action="https://google.com/search" method="get">
+            <input class="input_box" type="text" name="q" placeholder="Search with Google">
+        </form>
+    </div>
+    <div class="container">
+        <div class="item grow" id="Social">
+            <div id="head">
+                <p>SOCIAL</p>
+            </div>
+            <hr>
+            <div id="content">
+                <ul>
+                    <li class="grow"><a href="https://www.facebook.com">Facebook</a></li>
+                    <li class="grow"><a href="https://www.instagram.com">Instagram</a></li>
+                    <li class="grow"><a href="https://www.reddit.com">Reddit</a></li>
+                </ul>
+            </div>    
+        </div>
+        <div class="item grow" id="Watch">
+            <div id="head">
+                <p>WATCH</p>
+            </div>
+            <hr>
+            <div id="content">
+                <ul>
+                    <li class="grow"><a href="https://www.youtube.com">Youtube</a></li>
+                    <li class="grow"><a href="https://www.primevideo.com">Prime Video</a></li>
+                    <li class="grow"><a href="https://www.wowpresentsplus.com">WoW Presents</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="item grow" id="work">
+            <div id="head">
+                <p>WORK</p>
+            </div>
+            <hr>
+            <div id="content">
+                <ul>
+                    <li class="grow"><a href="https://learn.canterbury.ac.uk">CCCU - Blackboard</a></li>
+                    <li class="grow"><a href="https://www.churchdesk.com">Churchdesk</a></li>
+                    <li class="grow"><a href="https://owa.canterbury.ac.uk">CCCU - Email</a></li>
+            </div>        
+        </div>
+    </div>
+    <script>if (depTest()){SetLogo()}</script>
+</body>
+<footer>
+<p>Author: Robert Morrison</p>
+<p>CC-0</p>
+</footer>
+
+</html>

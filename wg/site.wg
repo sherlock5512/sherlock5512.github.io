@@ -44,9 +44,9 @@ WordGrinder dumpfile v3: this is a text file; diff me!
 .documents.2.sticky_selection: false
 .documents.2.viewmode: 2
 .documents.2.wordcount: 39
-.documents.3.co: 67.0
-.documents.3.cp: 5
-.documents.3.cw: 34
+.documents.3.co: 1
+.documents.3.cp: 6
+.documents.3.cw: 1
 .documents.3.margin: 4.0
 .documents.3.name: "README.md"
 .documents.3.sticky_selection: false
@@ -280,5 +280,6 @@ H1 sherlock5512.github.io
 P Now with more Stuff!
 H2 What is this?
 P This started as just a place to put my custom browser start page SEE: '/start.html'. But now I have decided to use github to attempt to make a functioning website.
-P I plan on writing the majority of this using wordgrinder for both the normal HTML pages and any markdown documentation for it. The wordgrinder page set is availible in this Github repository <a href="https://github.com/sherlock5512/sherlock5512.github.io">REPO</a>.
+P I plan on writing the majority of this using wordgrinder for both the normal HTML pages and any markdown documentation for it. The wordgrinder page set is availible in this Github repository
+RAW <a href="https://github.com/sherlock5512/sherlock5512.github.io">REPO</a>.
 .

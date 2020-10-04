@@ -23,9 +23,9 @@ WordGrinder dumpfile v3: this is a text file; diff me!
 .addons.spellchecker.enabled: false
 .addons.spellchecker.usesystemdictionary: true
 .addons.spellchecker.useuserdictionary: true
-.documents.1.co: 5.0
+.documents.1.co: 12.0
 .documents.1.cp: 3
-.documents.1.cw: 3
+.documents.1.cw: 2
 .documents.1.margin: 4.0
 .documents.1.name: "index.html"
 .documents.1.sticky_selection: false
@@ -253,7 +253,7 @@ WordGrinder dumpfile v3: this is a text file; diff me!
 #1
 H1 OMG YOU FOUND THE SECRET SECTION
 P I plan on using this part to test out wordgrinder as a possible way of creating a sparse website.
-P <a href="/blog">THE BLOG</a>
+RAW <a href="/blog">THE BLOG</a>
 .
 #2
 H1 This is a sticky blog entry that will ALWAYS be at the top.

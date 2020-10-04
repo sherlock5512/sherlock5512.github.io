@@ -9,4 +9,4 @@ This started as just a place to put my custom browser start page SEE: '/start.ht
 
 I plan on writing the majority of this using wordgrinder for both the normal HTML pages and any markdown documentation for it. The wordgrinder page set is availible in this Github repository
 
-    [REPO](https://github.com/sherlock5512/sherlock5512.github.io)
+[REPO](https://github.com/sherlock5512/sherlock5512.github.io)

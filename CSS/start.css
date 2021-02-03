@@ -1,6 +1,28 @@
 /* TODO: make config file to make adjusting colours easier.  */
 
 /* TODO: variablise the gradient */
+
+/* Import Nerd-Font Icons */
+@font-face {
+    font-family: 'NerdFontsSymbols Nerd Font';
+    src: url("../FONTS/Symbols-2048-em_Nerd_Font_Complete.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+.nf,.nerd-font,.nerd-fonts {
+    font-family: 'NerdFontsSymbols Nerd Font';
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 150%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
 body {
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 74%, rgba(82,113,120,1) 100%);
@@ -104,3 +126,16 @@ footer > p{
     margin: 0;
     color: #92a2a4;
 }
+
+/*Messy bit that does the nerd font replacements*/
+
+.nf-fa-facebook_official:before {
+    content: "\f230"
+}
+.nf-fa-instagram:before {
+    content: "\f16d"
+}
+.nf-fa-reddit_square:before {
+    content: "\f1a2"
+}
+

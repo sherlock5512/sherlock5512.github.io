@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="en">
 
 <head>
     <title>Startpage</title>
@@ -11,19 +11,21 @@
 </head>
 
 <body>
-    <img src="" id="browserLogo">
+    <img src="" id="browserLogo" hidden>
+    
     <div id="gSearch" style="display:block;">
         <form id="textField" class="google" action="https://google.com/search" method="get">
             <input class="input_box" type="text" name="q" placeholder="Search with Google">
         </form>
     </div>
+    
     <div class="container">
         <div class="item grow" id="Social">
-            <div id="head">
+            <div class="head">
                 <p>SOCIAL</p>
             </div>
             <hr>
-            <div id="content">
+            <div class="content">
                 <ul>
                     <li class="grow"><a href="https://www.facebook.com"><i class="nf nf-fa-facebook_official"></i> Facebook</a></li>
                     <li class="grow"><a href="https://www.instagram.com"><i class="nf nf-fa-instagram"></i> Instagram</a></li>
@@ -32,11 +34,11 @@
             </div>
         </div>
         <div class="item grow" id="Watch">
-            <div id="head">
+            <div class="head">
                 <p>WATCH</p>
             </div>
             <hr>
-            <div id="content">
+            <div class="content">
                 <ul>
                     <li class="grow"><a href="https://www.youtube.com">Youtube</a></li>
                     <li class="grow"><a href="https://www.primevideo.com">Prime Video</a></li>
@@ -46,11 +48,11 @@
             </div>
         </div>
         <div class="item grow" id="work">
-            <div id="head">
+            <div class="head">
                 <p>WORK</p>
             </div>
             <hr>
-            <div id="content">
+            <div class="content">
                 <ul>
                     <li class="grow"><a href="https://kingsdowncreekside.co.uk">K and C Website</a></li>
                     <li class="grow"><a href="https://www.churchdesk.com">Churchdesk</a></li>
@@ -60,11 +62,11 @@
             </div>
         </div>
         <div class="item grow" id="Ahoy">
-            <div id=head>
+            <div class=head>
                 <p>Ahoy</p>
             </div>
             <hr>
-            <div id="content">
+            <div class="content">
                 <ul>
                     <li class="grow"><a href="http://b-ok.cc">Books</a></li>
                     <li class="grow"><a href="http://libgen.li">Libgen</a></li>
@@ -72,13 +74,17 @@
             </div>
         </div>
     </div>
-    <div class="container" id="Custom" hidden>
     
+    <div class="container" id="Custom" hidden>
+        <!--This is to be used for Cookie based custom content  -->
     </div>
+    
     <script>if (depTest()){SetLogo()}</script>
+    
+    <footer>
+        <p>Author: Robert Morrison <a href="https://www.reddit.com/r/freestickers/new">fs</a> <a href="https://www.reddit.com/r/freebies/new">f</a></p>
+    </footer>
 </body>
-<footer>
-    <p>Author: Robert Morrison <a href="https://www.reddit.com/r/freestickers/new">fs</a> <a href="https://www.reddit.com/r/freebies/new">f</a></p>
-</footer>
+
 
 </html>
